@@ -1,0 +1,36 @@
+npm 包发布
+
+1.查看切换包为npm
+npm config get registry
+npm config set registry http://registry.npmjs.org/
+npm config set registry https://registry.npm.taobao.org/
+2.注册npm账号
+npm addUser
+
+3.创建Npm包
+
+mkdir consolelogtest
+npm init
+
+新建index.js
+lib
+
+index.js
+..........
+
+4.发布Npm包
+
+npm login
+
+npm publish(npm version patch)
+
+5.手动同步到淘宝镜像
+打开网址：https://npm.taobao.org/
+搜索插件，进入插件详情界面
+点击 cnpm install xxxx 下方的 SYNC 字样，进入同步界面
+
+等待几分钟就好了Sync consolenpmtest complete!
+
+
+
+测试项目  npm i consolenpmtest

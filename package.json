@@ -1,0 +1,12 @@
+{
+  "name": "consolenpmtest",
+  "version": "1.2.12",
+  "description": "123",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "reallyjs",
+  "license": "ISC",
+  "registry": "http://registry.npmjs.org"
+}
