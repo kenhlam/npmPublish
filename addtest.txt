@@ -1,2 +1,6 @@
 dev_lj to master merge 
 从dev_lj上传到master 
+
+
+设置关联当前分支的提交远程分支
+$ git push --set-upstream origin dev_lj
