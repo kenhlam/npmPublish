@@ -1,5 +1,5 @@
-npm 包发布
-
+﻿npm 包发布
+1
 1.查看切换包为npm
 npm config get registry
 npm config set registry http://registry.npmjs.org/
